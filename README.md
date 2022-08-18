@@ -1,0 +1,1 @@
+# Nomin_erdene-diplom
