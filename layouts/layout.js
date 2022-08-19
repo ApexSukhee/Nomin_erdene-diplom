@@ -38,7 +38,67 @@ export default function Layout({ children, categories }) {
                   </p>
                 </a>
               </Link>
-              {categories.map((category, index) => (
+              <Link href="/category/new-arrivals">
+                <a aria-label="new-arrivals">
+                  <p
+                    className="
+                    sm:mr-8 sm:mb-0
+                    mb-4 text-left text-smaller mr-4
+                  "
+                  >
+                    Шинээр ирсэн
+                  </p>
+                </a>
+              </Link>
+              <Link href="/category/sofas">
+                <a aria-label="sofas">
+                  <p
+                    className="
+                    sm:mr-8 sm:mb-0
+                    mb-4 text-left text-smaller mr-4
+                  "
+                  >
+                    Буйдан
+                  </p>
+                </a>
+              </Link>
+              <Link href="/category/living-room">
+                <a aria-label="living-room">
+                  <p
+                    className="
+                    sm:mr-8 sm:mb-0
+                    mb-4 text-left text-smaller mr-4
+                  "
+                  >
+                    Зочны өрөө
+                  </p>
+                </a>
+              </Link>
+              <Link href="/category/on-sale">
+                <a aria-label="on-sale">
+                  <p
+                    className="
+                    sm:mr-8 sm:mb-0
+                    mb-4 text-left text-smaller mr-4
+                  "
+                  >
+                    Хямдрал
+                  </p>
+                </a>
+              </Link>
+              <Link href="/category/chairs">
+                <a aria-label="chairs">
+                  <p
+                    className="
+                    sm:mr-8 sm:mb-0
+                    mb-4 text-left text-smaller mr-4
+                  "
+                  >
+                    Сандал
+                  </p>
+                </a>
+              </Link>
+              {/* {categories.map((category, index) => (
                 <Link href={`/category/${slugify(category)}`} key={index}>
                   <a aria-label={category}>
                     <p
@@ -51,7 +111,7 @@ export default function Layout({ children, categories }) {
                     </p>
                   </a>
                 </Link>
-              ))}
+              ))} */}
               <Link href="/categories">
                 <a aria-label="All categories">
                   <p
